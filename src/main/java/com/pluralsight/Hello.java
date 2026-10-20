@@ -2,17 +2,17 @@ package com.pluralsight;
 
 public class Hello {
     public static void main(String[] args) {
-
-        String greeting = "Hello, World!";
-        greet(greeting);
-
-        String fairwell = "Goodbye!";
-        goodbye(fairwell);
+        sayhello();
+        saygoodbye();
+        sayGoodMorning();
     }
-    public static void greet(String message){
-        System.out.println(message);
+    public static void sayhello(){
+        System.out.println("Hello, World!");
     }
-    public static void goodbye(String message){
-        System.out.println(message);
+    public static void saygoodbye(){
+        System.out.println("Goodbye");
+    }
+    public static void sayGoodMorning(){
+        System.out.println("Good Morning");
     }
 }
